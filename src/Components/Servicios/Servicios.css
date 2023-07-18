@@ -1,0 +1,16 @@
+.img-serv{
+    width: 3rem;
+}
+
+.serv{
+    color: #293DCB;
+}
+
+.card{
+    border: none;
+
+}
+
+.card:hover{
+    opacity: 0.6;
+}

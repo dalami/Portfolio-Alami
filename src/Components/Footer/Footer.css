@@ -1,0 +1,29 @@
+.mi-container{
+    background-color: black;
+    height: 10rem;
+    margin-top: 3rem;
+    
+}
+
+.bi{
+    color: #4C4CF0;
+    margin: 2rem;
+}
+
+.bi-1{
+    color: red;
+    margin: 2rem;
+}
+
+
+.logo-foot{
+ text-align: center;
+ margin-right: 10rem;
+}
+
+.foot-p{
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+    font-size: smaller;
+}
