@@ -34,12 +34,13 @@ const Info = () => {
             artista marcial y he dedicado años a perfeccionar mi tecnica y a
             mantenerme en forma.
           </p>
-          <p className="info-p">
+          <p className="info-p p2">
             Pero mi mayor orgullo y alegria es ser padre. Disfruto cada momento
             en familia y me esfuerzo por brindarles lo mejor. En general soy una
             persona apasionada de la vida y siempre busco nuevas aventuras y
             oportunidades para crecer tanto personal como profesionalmente.
           </p>
+          <a href='#portfolio'><button className='mostrar'>Ver Portfolio</button></a>
           {/* {!verPort && <button onClick={irPortfolio} className='mostrar'>Ver Portfolio</button>}
           {verPort && (<div>
           <button onClick={ocultarPort} className='ocultar'>Ocultar</button>

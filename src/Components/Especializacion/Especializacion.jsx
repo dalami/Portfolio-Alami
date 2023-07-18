@@ -15,16 +15,15 @@ const Especializacion = () => {
   };
 
   return (
-    <div className="container-sm">
+    <div className="container-sm cont-esp">
       <div className="text-justify p-5">
         <h1 className="m-5 esp-h1">Especializacion</h1>
-      
-        <p className="m-5">
+      <p className="m-5 esp-p" >
           Poseo una amplia trayectoria en gestión hotelera y atención al cliente
         </p>
       </div>
       <div className="row justify-content-center">
-        <div className="col-sm-3">
+        <div className="col-sm-3 ajuste">
           <div className={`card especial ${activeCard === 0 ? "active" : ""}`} onClick={() => handleCardClick(0)}>
             <div className="card-body">
               <h5>Gestion Hotelera</h5>
@@ -39,7 +38,7 @@ const Especializacion = () => {
             </div>
           </div>
         </div>
-        <div className="col-sm-3">
+        <div className="col-sm-3 ajuste">
           <div className={`card especial ${activeCard === 1 ? "active" : ""}`} onClick={() => handleCardClick(1)}>
             <div className="card-body">
               <h5>Cocinero Profesional</h5>
@@ -54,7 +53,7 @@ const Especializacion = () => {
             </div>
           </div>
         </div>
-        <div className="col-sm-3">
+        <div className="col-sm-3 ajuste">
           <div className={`card especial ${activeCard === 2 ? "active" : ""}`} onClick={() => handleCardClick(2)}>
             <div className="card-body">
               <h5>Atención al cliente</h5>

@@ -11,9 +11,9 @@ const Servicios = () => {
     return (
       <section id='servicios'>
         <div className='container-sm'>
-        <div className='text-center p-5'>
-        <h1 className='m-5'>Mis <span className='serv fs-1'>Servicios</span></h1>
-        <p className='m-5'>Estos son algunos de mis servicios</p>
+        <div className='text-center p-5 '>
+        <h1 className='m-5 lh-1'>Mis <span className='serv fs-1'>Servicios</span></h1>
+        <p className='m-5 lh-1'>Estos son algunos de mis servicios</p>
         </div>
 
         <div className='row justify-content-center'>

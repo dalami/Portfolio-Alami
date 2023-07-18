@@ -1,10 +1,14 @@
 .esp-h1{
     color: #384BCF;
+    margin-bottom: 0;
 }
 
 .especial{
     background-color: #3347D4;
     color: white;
+}
+.esp-p{
+  margin-bottom: 1rem;
 }
 
 
@@ -21,3 +25,29 @@
     transform: scale(1.1);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   }
+
+  @media screen and (max-width:767px){
+   
+  }
+      
+     
+      
+      
+      @media screen and (min-width:768px) and (max-width:1023px){
+        .ajuste{
+          display: flex;
+          justify-content: center;
+          width: 200px;
+          
+        }
+       
+        
+        
+     
+      
+      
+      
+      @media screen and (min-width:1024px){
+         
+      }
+    }

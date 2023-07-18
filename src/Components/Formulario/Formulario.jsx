@@ -99,6 +99,7 @@ const Formulario = () => {
                 value={nombre}
                 onChange={actualizarNombre}
                 className="form-control"
+                required
               />
             </div>
             <div className="form-group col-md-6">
@@ -109,6 +110,7 @@ const Formulario = () => {
                 value={apellido}
                 onChange={actualizarApellido}
                 className="form-control"
+                required
               />
             </div>
           </div>
@@ -121,6 +123,7 @@ const Formulario = () => {
                 value={email}
                 onChange={actualizarEmail}
                 className="form-control"
+                required
               />
             </div>
 
@@ -133,6 +136,7 @@ const Formulario = () => {
                   value={contraseña}
                   onChange={actualizarContraseña}
                   className="form-control"
+                  required
                 />
                 <div className="input-group-append">
                   <button
@@ -144,7 +148,7 @@ const Formulario = () => {
                   >
                     
                     <FontAwesomeIcon
-                      icon={mostrarContraseña ? faEyeSlash : faEye}
+                      icon={mostrarContraseña ? faEye : faEyeSlash}
                     />
                   </button>
                 </div>
