@@ -38,7 +38,7 @@ const Nav = () => {
               
         </Box>
         <div className="collapse navbar-collapse" id="opciones">
-          <ul className="navbar-nav ms-auto">
+          <ul className="navbar-nav  ">
             <li className="nav-item">
               <a className="nav-link" href="#inicio"  >
                 Inicio

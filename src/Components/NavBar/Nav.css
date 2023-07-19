@@ -4,15 +4,15 @@
     left: 0;
     width: 100%;
     z-index: 10;
-    background-color: white;
-    
-
-    
+    background-color: white;  
+}
+.navbar-nav{
+    margin-left: 30rem;
 }
 .nav-link{
     color: black;
     font-size: large;
-    margin-left: 2rem;
+    margin-left: 1rem;
    padding: 2rem;
     
 }
@@ -20,5 +20,14 @@
 .nav-link:hover{
     opacity: 0.5;
    transform: scale(1.1);
+    color:#6162EF ;     
    
 }
+
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    .navbar-nav{
+        margin-left: 6rem;
+    }
+      
+    }
