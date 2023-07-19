@@ -20,8 +20,8 @@ const Nav = () => {
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
+            width="50"
+            height="50"
             fill="currentColor"
             className="bi bi-list"
             viewBox="0 0 16 16"
@@ -38,7 +38,7 @@ const Nav = () => {
               
         </Box>
         <div className="collapse navbar-collapse" id="opciones">
-          <ul className="navbar-nav  ">
+          <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <a className="nav-link" href="#inicio"  >
                 Inicio

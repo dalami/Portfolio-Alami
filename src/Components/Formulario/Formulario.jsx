@@ -148,7 +148,7 @@ const Formulario = () => {
                   >
                     
                     <FontAwesomeIcon
-                      icon={mostrarContraseña ? faEye : faEyeSlash}
+                      icon={mostrarContraseña ? faEyeSlash : faEye}
                     />
                   </button>
                 </div>
