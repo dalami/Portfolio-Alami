@@ -42,7 +42,7 @@ const Formulario = () => {
       });
 
       if (response.ok) {
-        showNotification("Mensaje enviado!", "success");
+        showNotification("Muchas gracias Su Mensaje fue enviado!", "success");
 
         setNombre("");
         setApellido("");

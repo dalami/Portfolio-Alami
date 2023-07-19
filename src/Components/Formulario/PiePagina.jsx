@@ -82,7 +82,7 @@ const PiePagina = () => {
     <section id="contacto">
    
         <div className="container contenedor">
-      <h4>Deje su comentario</h4>
+      <h4>Gracias por contactarse</h4>
       <div>
         <form onSubmit={handleSubmit}>
           <div className="row">
